@@ -1,0 +1,21 @@
+{
+  "name": "oh-no-dgp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "extract-jar": "node scripts/extract-jar.js",
+    "start": "node main.js --no-refresh-token"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gizeta/oh-no-dgp.git"
+  },
+  "keywords": [],
+  "author": "Gizeta",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/Gizeta/oh-no-dgp/issues"
+  },
+  "homepage": "https://github.com/Gizeta/oh-no-dgp#readme"
+}
