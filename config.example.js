@@ -1,21 +1,19 @@
 module.exports = {
   "device": {
-    "mac_address": "",   // optional
-    "hdd_serial": "",    // optional
-    "motherboard": "",   // optional
-    "os_type": "",       // optional
+    "mac_address": "",
+    "hdd_serial": "",
+    "motherboard": "",
+    "os_type": "",
     "native_version": "2.5.8",
-    "type": "cl",
-    "launch_type": "LIB"
   },
   "games": [{
     "product_id": "game",
     "path": "PATH\\TO\\YOUR\\DMM\\game.exe"
   }],
-  "auth": {
-    "token": "",         // optional
-    "access_token": "",  // optional
-    "game_token": [{     // DON'T TOUCH, MAY BE REWRITTEN
+  "auth": { // DON'T TOUCH, MAY BE REWRITTEN
+    "token": "",
+    "access_token": "",
+    "game_token": [{
       "product_id": "game",
       "viewer_id": "",
       "onetime_token": ""

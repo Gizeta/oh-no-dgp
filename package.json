@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "extract-jar": "node scripts/extract-jar.js",
-    "start": "node main.js --no-refresh-token"
+    "start": "node main.js --no-check-dgp-version --no-refresh-token",
+    "start-like-dgp": "node main.js"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,4 @@
 .rdata
 *.jar
 config.js
+*.txt
