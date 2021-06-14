@@ -4,9 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "normal-start": "node main.js",
     "extract-jar": "node scripts/extract-jar.js",
-    "start": "node main.js --no-check-dgp-version --no-refresh-token",
-    "start-like-dgp": "node main.js"
+    "start": "node main.js --no-check-dgp-version --no-refresh-token --no-install-driver"
   },
   "repository": {
     "type": "git",

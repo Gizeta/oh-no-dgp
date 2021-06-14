@@ -74,6 +74,13 @@ const rl = readline.createInterface({
     await fs.writeFile(path.resolve(__dirname, './config.js'), `module.exports = ${JSON.stringify(config, null, 2)}`, () => { });
   }
 
+  if (!args.includes('--no-install-driver')) {
+    if (app.service_name && app.driver) {
+      const dgplib = require('./scripts/dgplib');
+      await dgplib.ensureDriver(app.service_name, app.driver);
+    }
+  }
+
   spawn(app.path, [`/viewer_id=${viewer_id}`, [`/onetime_token=${onetime_token}`]], {
     stdio: 'ignore',
     detached: true

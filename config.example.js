@@ -8,7 +8,9 @@ module.exports = {
   },
   "games": [{
     "product_id": "game",
-    "path": "PATH\\TO\\YOUR\\DMM\\game.exe"
+    "path": "PATH\\TO\\YOUR\\DMM\\game.exe",
+    "driver": "PATH\\TO\\YOUR\\DMM\\game.sys",
+    "service_name": "game"
   }],
   "auth": { // DON'T TOUCH, MAY BE REWRITTEN
     "token": "",
